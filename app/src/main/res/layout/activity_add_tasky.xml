@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnsave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="save" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <Button
+                    android:id="@+id/btnupload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="upload" />
+
+                <Button
+                    android:id="@+id/btndatepicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="pick a date" />
+
+                <SeekBar
+                    android:id="@+id/sbimp"
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="5"
+                    android:progress="3" />
+
+                <TextView
+                    android:id="@+id/tvNeccesary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Neccesary" />
+
+                <EditText
+                    android:id="@+id/dueDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date" />
+
+                <SeekBar
+                    android:id="@+id/sbnec"
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="5"
+                    android:progress="3" />
+
+                <TextView
+                    android:id="@+id/tvImportant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="important" />
+
+                <EditText
+                    android:id="@+id/etSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="subject" />
+
+                <EditText
+                    android:id="@+id/etTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="title" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
