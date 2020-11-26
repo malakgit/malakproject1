@@ -6,39 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MyUI.MainActivity">
 
-    <LinearLayout
-        android:layout_width="501dp"
-        android:layout_height="721dp"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-43dp">
+    <ImageButton
+        android:id="@+id/addbtn"
+        android:layout_width="77dp"
+        android:layout_height="58dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="671dp" />
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="passWord" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="firstName" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="lastName" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Gmail" />
-    </LinearLayout>
-
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="146dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

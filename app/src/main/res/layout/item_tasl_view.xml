@@ -46,8 +46,8 @@
 
     <ImageView
         android:id="@+id/imageEdit"
-        android:layout_width="70dp"
-        android:layout_height="106dp"
+        android:layout_width="71dp"
+        android:layout_height="91dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageDelete"
