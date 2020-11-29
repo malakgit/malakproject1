@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         //2.
         DatabaseReference reference = database.getReference();
         //3. user id
+        
         FirebaseAuth auth = FirebaseAuth.getInstance();
         String uid = auth.getCurrentUser().getUid();
         //4. My Object Key
