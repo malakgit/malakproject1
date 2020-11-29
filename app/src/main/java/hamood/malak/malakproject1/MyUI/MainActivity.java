@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         taskAdapter=new MyTaskAdAdapter(getBaseContext(),R.layout.item_tasl_view);
         //a.5
         listview1.setAdapter(taskAdapter);
+        //
     }
     //a.6
     public void downloadFromFireBase() {
