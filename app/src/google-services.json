@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "409467741440",
+    "firebase_url": "https://malakproject1.firebaseio.com",
+    "project_id": "malakproject1",
+    "storage_bucket": "malakproject1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409467741440:android:be27e2ace61e8752dd7fe5",
+        "android_client_info": {
+          "package_name": "hamood.malak.malakproject1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409467741440-ob8r47f6tddldklr96q64961jku7p4t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hamood.malak.malakproject1",
+            "certificate_hash": "a9f8fb98270997b5156bfdd19b20d6e88b12a630"
+          }
+        },
+        {
+          "client_id": "409467741440-0kuq495h0i5uqnihdv3c45eir9k8bh20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB08G3_ZeClPDQEGaDti3EZxz61HfvxawQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409467741440-0kuq495h0i5uqnihdv3c45eir9k8bh20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
