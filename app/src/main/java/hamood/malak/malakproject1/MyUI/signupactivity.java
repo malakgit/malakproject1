@@ -14,9 +14,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.internal.api.FirebaseNoSignedInUserException;
 
-import hamood.malak.malakproject1.MyUI.MainActivity;
 import hamood.malak.malakproject1.MyUtils.MyValidations;
 import hamood.malak.malakproject1.R;
 
@@ -37,7 +35,7 @@ public class signupactivity extends MainActivity {
         password1=findViewById(R.id.password1);
         firstname=findViewById(R.id.firstname);
         lastname=findViewById(R.id.lastname);
-        save=findViewById(R.id.save);
+        save=findViewById(R.id.login);
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {//class without name
