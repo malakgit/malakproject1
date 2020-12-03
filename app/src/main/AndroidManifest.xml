@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MyUI.AddTasky"></activity>
-        <activity android:name=".MyUI.MainActivity2"/>
         <activity android:name=".MyUI.MainActivity"/>
         <activity android:name=".MyUI.signinactivity" >
             <intent-filter>
@@ -19,6 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MyUI.signupactivity"/>
     </application>
 
 </manifest>
