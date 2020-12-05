@@ -59,6 +59,7 @@ public class AddTasky extends AppCompatActivity {
 
     }
     public void validateForm()
+            //make sure if everything is good
     {
         String title=etTitle.getText().toString();
         String subject=etSubject.getText().toString();

@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         listview1=findViewById(R.id.listview1);
         //a.4
         taskAdapter=new MyTaskAdAdapter(getBaseContext(),R.layout.item_tasl_view);
-        //a.5
+        //a.5 a
         listview1.setAdapter(taskAdapter);
         //
     }
