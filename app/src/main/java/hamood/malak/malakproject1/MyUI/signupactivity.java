@@ -35,7 +35,7 @@ public class signupactivity extends MainActivity {
         password1=findViewById(R.id.password1);
         firstname=findViewById(R.id.firstname);
         lastname=findViewById(R.id.lastname);
-        save=findViewById(R.id.login);
+        save=findViewById(R.id.save);
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {//class without name

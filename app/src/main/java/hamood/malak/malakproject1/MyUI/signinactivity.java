@@ -2,7 +2,6 @@ package hamood.malak.malakproject1.MyUI;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,7 +21,7 @@ import hamood.malak.malakproject1.R;
 public class signinactivity extends MainActivity
 {
     //2
-    private Button login,signup;
+    private Button login,save;
     private EditText Password,Email;
 
     protected void onCreate(Bundle savedInstanceState){
@@ -31,8 +30,8 @@ public class signinactivity extends MainActivity
 
         Email=findViewById(R.id.Email);
         Password=findViewById(R.id.Password);
-        login=findViewById(R.id.login);
-        signup=findViewById(R.id.signup);
+        login=findViewById(R.id.save);
+        save=findViewById(R.id.save);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +40,7 @@ public class signinactivity extends MainActivity
 
             }
         });
-        signup.setOnClickListener(new View.OnClickListener() {
+        save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i=new Intent(signinactivity.this,signupactivity.class);
